@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <p>
+            Consumo de REST API de Space Api
+            </p>
+            <div>
+                <label>Name:</label>
+                <input type="text" id="name">
+            </div>
+            <div>
+                <label>Description:</label>
+                <input type="text" id="description">
+            </div>
+            <div>
+                <label>Image:</label>
+                <input type="text" id="image">
+            </div>
+
+            <button onclick="postDato()">POST user</button>
+            <button onclick="getDatos()">Get Usuarios</button>
+
+            <div id="resultado"></div>
+
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+            <script src="callnasapi.js"></script>
+    </body> 
+</html>
